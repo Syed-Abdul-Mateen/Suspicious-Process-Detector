@@ -1,0 +1,5 @@
+psutil
+colorama
+win10toast
+pywin32
+reportlab

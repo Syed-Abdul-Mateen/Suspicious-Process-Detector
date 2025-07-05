@@ -1,0 +1,19 @@
+{
+  "blacklist": ["keylogger.exe", "malware.exe", "ransomware.py"],
+  "suspicious_paths": ["C:\\Windows\\Temp", "/tmp", "/var/tmp"],
+  "cpu_threshold": 30,
+  "memory_threshold": 100,
+  "enable_cpu_check": true,
+  "enable_memory_check": true,
+  "enable_path_check": true,
+  "enable_parent_child_check": true,
+  "enable_blacklist_check": true,
+  "enable_network_check": true,
+  "parent_child_rules": {
+    "suspicious_parents": ["cmd.exe", "powershell.exe"],
+    "allowed_children": {
+      "cmd.exe": ["notepad.exe", "calc.exe"],
+      "powershell.exe": ["notepad.exe", "calc.exe"]
+    }
+  }
+}
