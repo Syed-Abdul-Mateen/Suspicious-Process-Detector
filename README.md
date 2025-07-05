@@ -17,7 +17,6 @@ The Suspicious Process Detector is a Python-based tool for monitoring and identi
 -   **Logging and Reporting:**
     -   Maintains a detailed log of all suspicious activities in `logs/suspicious_log.txt`.
     -   Generates a comprehensive PDF summary report of all findings upon termination.
--   **Desktop Notifications:** Provides immediate desktop alerts for any detected threats.
 -   **Automated Response:** Can automatically kill blacklisted processes upon detection.
 
 ## Setup
